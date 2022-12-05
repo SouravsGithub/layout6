@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,19 +22,49 @@
 /*******************************************/
 
 body {
-
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+.container {
+  height: 100vh;
+  background: url(../images/brooke-lark-08bOYnH_r_E-unsplash.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
-
+header {
+}
+nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+nav > * {
+  flex-basis: 5rem;
+}
+nav > a {
+  margin-top: 1%;
+}
+nav > a > img {
+  height: 28px;
+  width: 28px;
+}
+nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 50rem;
+  margin-right: 2%;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 footer {
-
 }
 
 /******************************************
