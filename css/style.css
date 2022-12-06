@@ -125,6 +125,58 @@ nav > ul > li > a {
   font-weight: bold;
   vertical-align: top;
 }
+
+/* SECOND SECTION STYLING */
+
+.second {
+  height: 110vh;
+  background: url(../images/made_by_siblu.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-text {
+  width: 40%;
+  margin: 0 auto;
+  margin-left: 40%;
+  padding: 4% 0;
+}
+.about-text h3 {
+  font-size: 1.5rem;
+  color: #ff9200;
+  margin-bottom: 1%;
+}
+.about-text h2 {
+  margin: 0;
+  font-size: 4.5rem;
+}
+.about-text p {
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 5% 0;
+}
+.about-text p + p {
+  margin-bottom: 10%;
+}
+.about-text > a {
+  text-decoration: none;
+  color: white;
+}
+.about-text span {
+  background-color: #ff9200;
+  padding: 1rem 1.5rem;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.about-text span + span {
+  background: #ffb14a;
+  padding: 1rem 0.8rem;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
 footer {
 }
 
