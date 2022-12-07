@@ -365,6 +365,73 @@ nav > ul > li > a {
   margin-bottom: 3%;
 }
 
+/* STYLING THE FOOTER */
+
+footer {
+  background: #f2f6f7;
+}
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+.footer-container > * {
+  flex: 1;
+}
+.footer-column > h5 {
+  font-size: 1.8rem;
+  margin-top: 8%;
+}
+.left {
+  margin-right: 3%;
+}
+.left > img {
+  width: 80px;
+}
+.left > h5 {
+  margin: 0;
+}
+.left > h6 {
+  margin: 0;
+  font-size: 1rem;
+}
+.footer-column > p {
+  margin: 10% 0;
+  font-weight: 600;
+}
+.footer-column a {
+  color: #ff9200;
+}
+.left p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 10%;
+  margin-left: 6%;
+}
+.right input {
+  padding: 0.8rem 1rem;
+  padding-right: 3.5rem;
+}
+.footer-container-end {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5%;
+  padding-bottom: 3%;
+}
+.footer-socials {
+  flex-basis: 15rem;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-socials img {
+  width: 40px;
+  height: 40px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
