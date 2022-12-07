@@ -197,25 +197,25 @@ nav > ul > li > a {
   margin: 0;
   margin-bottom: 3%;
 }
-.third ul {
+.tabs {
   width: 50%;
   margin: auto auto;
   display: flex;
   list-style: none;
   padding: 0;
 }
-.third ul li {
+.tabs li {
   padding: 0 5%;
   padding-bottom: 2%;
   border-bottom: 1px solid gray;
 }
-.third ul li:first-child {
+.tabs li:first-child {
   border-bottom: 2px solid #ff9200;
 }
-.third > ul li:first-child a {
+.tabs li:first-child a {
   color: #ff9200;
 }
-.third ul a {
+.tabs a {
   text-decoration: none;
   color: black;
   font-size: 1.4rem;
