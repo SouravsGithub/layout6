@@ -322,7 +322,47 @@ nav > ul > li > a {
   margin-bottom: 15%;
   font-weight: bold;
 }
-footer {
+
+/* LAST SECTION STYLING */
+
+.fifth {
+  text-align: center;
+  margin: 5%;
+}
+.fifth h3 {
+  font-size: 1.5rem;
+  color: #ff9200;
+  margin: 0;
+}
+.fifth h2 {
+  font-size: 4.5rem;
+  margin: 0;
+  margin-bottom: 3%;
+}
+.fifth > img {
+  width: 11rem;
+  height: 10rem;
+}
+.fifth h5 {
+  font-size: 2rem;
+  margin: 0;
+}
+.fifth > span {
+  display: block;
+  font-size: 1.3rem;
+  color: grey;
+  margin-bottom: 1.8%;
+}
+.fifth > span + span {
+  margin-bottom: 2%;
+}
+.fifth > p {
+  width: 70%;
+  margin: auto;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 3%;
 }
 
 /******************************************
