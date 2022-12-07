@@ -262,6 +262,66 @@ nav > ul > li > a {
   background: #ff9200;
   margin-top: 10%;
 }
+
+/* FOURTH SECTION STYLING */
+
+.fourth {
+  background: url(../images/CorrectOne.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fourth-container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5% 0;
+}
+.top-image {
+  width: 100%;
+  height: 100%;
+}
+.fourth-container h3 {
+  font-size: 1.5rem;
+  color: #ff9200;
+  margin-bottom: 0.8%;
+}
+.fourth-container h2 {
+  font-size: 4.5rem;
+  margin: 0;
+  margin-bottom: 5%;
+}
+.fourth-container > p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2%;
+  margin-bottom: 1%;
+}
+.fourth-container .phone-number {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #ff9200;
+}
+.opening {
+  display: flex;
+  justify-content: center;
+  gap: 25%;
+  margin-left: 5%;
+}
+.time {
+  flex-basis: 20rem;
+}
+.time p {
+  text-align: start;
+  font-size: 1.3rem;
+  margin: 0;
+  margin-top: 10%;
+}
+.time p + p {
+  font-size: 2rem;
+  margin-top: 3%;
+  margin-bottom: 15%;
+  font-weight: bold;
+}
 footer {
 }
 
